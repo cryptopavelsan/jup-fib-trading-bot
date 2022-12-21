@@ -1,5 +1,5 @@
 # Jupiter Swap Fibonacci Trading Bot
-This trading bot swaps between two pairs buying and selling based on the side and defined Fibonacci range for buying and selling. It will sell above a certain Fib level and buy below it for the two selected tokens. Deviation from the levels/mean can be set to impact the size of the swap to help taking advantage of the local crest and trough within the time period.
+This trading bot swaps between two pairs buying and selling based on the side and defined Fibonacci range for buying and selling. It will sell above a certain Fib level and buy below it using a DCA trading strategy for the two selected tokens. Deviation from the levels/mean can be set to impact the size of the swap to help taking advantage of the local crest and trough within the time period.
 
 It utilizes Jupiter Aggregator, a swap aggregator on Solana using their SDK V4. It has built in rudimentary retry logic for failed transactions.
 
